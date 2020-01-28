@@ -186,6 +186,9 @@ end
 
 def team_names
   teams=[]
+  # teams.push(game_hash[:away][:team_name])
+  # teams.push(game_hash[:home][:team_name])
+  
   game_hash.each{|place, team|
     teams << team[:team_name]
   }
