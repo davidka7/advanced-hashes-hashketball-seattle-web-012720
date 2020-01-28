@@ -126,11 +126,17 @@ end
 #return scored
 #end
 # error given arguments is what you need, expected arguments is what there is or validates_length_of
-#
+# command and backslash == command and slash box equals comment out lol and after #lol
 
 def num_points_scored(players_name)
   # game_hash[:away][::players][0][:players_name]
   #game_hash[:away][::players][0][:points]
+  #
+  # example
+  # game_hash.each do |team_location, team|
+  #team[:players] do |player| 
+  # if player[:players_name] == player_name
+  #return player[:points] end end end end
   #
   game_hash.each do |place, team| 
   team.each do |attribute, data|
