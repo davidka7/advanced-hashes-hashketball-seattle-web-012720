@@ -195,6 +195,7 @@ end
 
  def player_numbers(team_name)
    array=[]
+
    game_hash.each{|place, team| 
    if team[:team_name] == team_name
   team.each{|players, players_data|
