@@ -129,6 +129,7 @@ end
 # command and backslash == command and slash box equals comment out lol and after #lol
 # enumerable select does this...       selects an array and returns if true a new array so for example.....   a=[1,2,3,6] a.select{|num| num==2} 
 #this equals [2] or juse one equal makes eevything equal to it =[1,2,3,6] a.select{|num| num=2} equals=[1,2,3,6]
+# enumerables collect and map are the same thing 
 
 def num_points_scored(players_name)
   # game_hash[:away][::players][0][:players_name]
