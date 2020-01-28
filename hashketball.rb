@@ -191,6 +191,7 @@ def team_names
   }
   teams
 end
+
  def player_numbers(team_name)
    array=[]
    game_hash.each{|place, team| 
